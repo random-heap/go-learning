@@ -13,12 +13,12 @@ func main() {
 	arr5 := [...]int{1, 2, 3, 4, 5} //不指定长度，对数组赋以5个值
 	arr6 := [...]int{8: 1}          //不指定长度，对第9个元素（下标为8）赋值1
 
-	fmt.Println(arr1)
-	fmt.Println(arr2)
-	fmt.Println(arr3)
-	fmt.Println(arr4)
-	fmt.Println(arr5)
-	fmt.Println(arr6)
+	fmt.Println("arr1 =", arr1, " len is ", len(arr1))
+	fmt.Println("arr2 =", arr2, " len is ", len(arr2))
+	fmt.Println("arr3 =", arr3, " len is ", len(arr3))
+	fmt.Println("arr4 =", arr4, " len is ", len(arr4))
+	fmt.Println("arr5 =", arr5, " len is ", len(arr5))
+	fmt.Println("arr6 =", arr6, " len is ", len(arr6))
 
 	for i, v := range arr5 {
 		fmt.Println(i, v)

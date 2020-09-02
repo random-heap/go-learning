@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func TestSum(t *testing.T) {
+func TestQuery(t *testing.T) {
 
 	db := DBConnect{
 		DBUrl:"root:root1243@tcp(127.0.0.1:3306)/test?charset=utf8mb4",
